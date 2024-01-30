@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <style>
+        div.box{
+            width: 100px;
+            height: 100px;
+            background-color: salmon;
+        }
+        div.box:hover{
+            width: 100px;
+            height: 100px;
+            background-color: yellowgreen;
+            
+        }
+        div.box.circle{
+            width: 100px;
+            height: 100px;
+            background-color: magenta;
+            border-radius: 100px;
+            margin-top: 15px;
+        }
+        div.box.circle:hover{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            border-radius: 0px;
+        }
+        span.box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            display: block;
+            margin-top: 15px;
+            
+        }
+        span.box:hover{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border-radius: 100px;
+            
+        }
+        body{
+            text-align: center;
+            line-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" >1</div>
+    <div class="box circle">2</div>
+    <span class="box">3</span>
+</body>
+</html>
